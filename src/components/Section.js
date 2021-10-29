@@ -12,9 +12,11 @@ const Section = (props) => {
                     <LeftButton>
                         {props.leftButtonText}
                     </LeftButton>
+                    { props.rightButtonText &&
                     <RightButton>
                         {props.rightButtonText}
                     </RightButton>
+                    }
                 </ButtonGroup>
                 <DownArrow src='/images/down-arrow.svg' />
             </Buttons>

@@ -52,6 +52,14 @@ const Home = () => {
                 leftButtonText='order now'
                 rightButtonText='learn more'
             />
+            <Section
+                title='Accessories' 
+                desc1='' 
+                desc2=''
+                backgroundImg = '/images/accessories.jpg'
+                leftButtonText='shop now'
+                rightButtonText=''
+            />
         </Container>
     );
 }
