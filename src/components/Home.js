@@ -47,7 +47,7 @@ const Home = () => {
             <Section
                 title='Solar Roof' 
                 desc1='Produce Clean Energy From Your Roof' 
-                desc2='Touchless Delivery'
+                desc2=''
                 backgroundImg = '/images/solar-roof.jpg'
                 leftButtonText='order now'
                 rightButtonText='learn more'
@@ -68,5 +68,4 @@ export default Home;
 
 const Container = styled.div`
     height: 100vh;
-
 `
